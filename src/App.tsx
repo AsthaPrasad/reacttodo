@@ -33,7 +33,7 @@ function App() {
     const newTodo = { text, complete: false };
     if(newTodo.text == "")
     {
-      newTodo.text = "Please enter text";
+      alert("Please enter text");
     }
     else
     {
